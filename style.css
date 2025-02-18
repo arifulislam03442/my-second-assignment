@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quicksand-normal{
+    font-family: "Quiucksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .width{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .orange{
+    color: #FEA301;
+  }
+  .sky-blue{
+    color: #01ACFD;
+  }
+  .main-btn{
+    border-radius: 12px ;
+    width: 12.31rem;
+    height: 3.12rem;
+    font-size: 1.25rem;
+    background-color: #FEA301;
+    border: none;
+  }
+  .mini-btn{
+    background-color: #95B226;
+    font-size: 15.34px;
+    font-weight: 500;
+    position: relative;
+    left: 38px;
+    bottom: 19.5px;
+    border: none;
+    width: 10.87rem;
+    height: 2.37rem;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+  }
+  .footer-text-color{
+    color: #FFFFFF;
+  }
+  body{
+    max-width: 1440px;
+    margin: auto;
+  }
+  main{
+    background: linear-gradient(to top, #FFA3014D -6%, #FFFFFF 28%);
+  }
+
+
+  .nav-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6.23%;
+    margin: 20px auto;
+    align-items: center;
+}
+.nav-icon-box{
+    gap: 11px;
+    justify-content: flex-start;
+}
+.nav-school{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-section-titles ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.25em;
+    
+}
+.nav-section-titles ul{
+    gap: 2rem;
+}
+.color-3{
+    color: #05D4DF;
+}
+.color-4{
+    color: #5D58EF;
+}
+.nav-btn{
+    text-align: right;
+}
+.nav-btn button{
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #FFFFFF;
+}

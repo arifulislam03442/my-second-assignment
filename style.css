@@ -102,3 +102,111 @@
     font-size: 1.25em;
     color: #FFFFFF;
 }
+
+/* banner style */
+.banner-container{
+  justify-content: space-between;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.banner-content h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 61px;
+}
+.banner-content p{
+  font-size: 1.25rem;
+}
+.banner-content button{
+  background-color: #111111;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+
+/* curriculam-section */
+.curriculam-section{
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+  padding: 80px 0;
+}
+
+.curriculam-container{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 80px;
+}
+.curriculam-container h1{
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.curriculam-boxes{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 28px;
+}
+.linear1{
+background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
+}
+
+.linear2{
+  background: linear-gradient(to bottom, #FFF4DC -6%, #FFFFFF 28%);
+}
+.linear3{
+  background: linear-gradient(to bottom, #EEE1FF -6%, #FFFFFF 28%);
+
+  
+}
+.curriculam-box{
+  flex-direction: column;
+  gap: 33px;
+  border-radius: 12.5px;
+  box-shadow: 0 0 19.16px 0.64px #0000000D ;
+}
+.curriculam-box h3{
+  font-size: 24.52px;
+  font-weight: bold;
+}
+.curriculam-box p{
+  font-size: 15.09px;
+  font-weight: medium;
+  text-align: center;
+}
+.curriculam-box span{
+  font-weight: bold;
+  font-size: 1rem;
+  color: #64C8FF;
+}
+.curriculam-boxes .curriculam-box:nth-child(2) span{
+  color: #F0AA00;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.curriculam-boxes .curriculam-box:nth-child(3) span{
+  color: #8700FF;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.less-greater .less, .greater{
+
+  background-color: #FEA301;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.less span, .greater span{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+}

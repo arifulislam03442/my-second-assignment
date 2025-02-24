@@ -360,7 +360,7 @@ footer{
     width: 100%;
     border-bottom: 1px solid #FEA301;
   }
-}
+
 .nav-container{
   margin: 12px 16px;
 }
@@ -408,3 +408,112 @@ footer{
   margin: 16px;
   padding: 10.21px;
 }
+
+/* curriculam section */
+.curriculam-container{
+  padding-top: 40px;
+}
+.curriculam-container h1{
+  font-size: 1.62rem;
+}
+.curriculam-boxes{
+  grid-template-columns: repeat(1, 1fr);
+  margin: 20px 16.5px;
+  gap: 12.3px;
+}
+.curriculam-box{
+  gap: 22px;
+  padding: 32px 28px;
+}
+.less-greater{
+  display: none;
+}
+
+/* stories */
+.stories-container{
+  padding: 40px 0;
+  gap: 20px;
+}
+.small-boxes{
+  width: 100%;
+  grid-gap: 7.5px;
+}
+.small-box{
+  width: 174px;
+  /* padding: 20px 16px; */
+  gap: 11px;
+}
+.small-box img{
+  width: 100%;
+}
+.small-box button{
+  font-size: 9.13px;
+  height: 22px;
+  top: -24px;
+  left: 22px;
+}
+.small-box-p{
+  width: 127px;
+  font-size: 9.13px;
+  margin-top: -21px;
+  line-height: 17.1px;
+}
+.mini-btn{
+  position: relative;
+  width: 130px;
+}
+.bg-c-2{
+  background-color: #5D58F0;
+}
+
+
+/* footer */
+footer{
+  height: auto;
+  padding: 60px 0;
+}
+.footer-section{
+  grid-template-columns: repeat(1, 1fr);
+}
+.footer-icon-title{
+  width: 100%;
+}
+.footer-icon-title div{
+  width: 250px;
+  margin-bottom: 22px;
+}
+.footer-icon-title div img{
+  width: 69px;
+  height: 69px;
+}
+.footer-icon-title div h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer-icon-title p{
+  width: 357px;
+  font-size: 1rem;
+}
+.footer-title-section{
+  text-align: start;
+}
+.About-school{
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-title-section div{
+  margin: 32px 0;
+}
+.footer-title-section ul{
+  margin-top: 27px;
+}
+.footer-links{
+  text-align: start;
+}
+.footer-links h3{
+  font-size: 22px;
+}
+}
+
+
+
